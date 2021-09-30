@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="music.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Birthstone&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<body>
+    <div class="loader">
+        <svg class="car" width="102" height="40" xmlns="http://www.w3.org/2000/svg">
+            <g transform="translate(2 1)" stroke="#002742" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+                <path class="car__body" d="M47.293 2.375C52.927.792 54.017.805 54.017.805c2.613-.445 6.838-.337 9.42.237l8.381 1.863c2.59.576 6.164 2.606 7.98 4.531l6.348 6.732 6.245 1.877c3.098.508 5.609 3.431 5.609 6.507v4.206c0 .29-2.536 4.189-5.687 4.189H36.808c-2.655 0-4.34-2.1-3.688-4.67 0 0 3.71-19.944 14.173-23.902zM36.5 15.5h54.01" stroke-width="3"/>
+                <ellipse class="car__wheel--left" stroke-width="3.2" fill="#FFF" cx="83.493" cy="30.25" rx="6.922" ry="6.808"/>
+                <ellipse class="car__wheel--right" stroke-width="3.2" fill="#FFF" cx="46.511" cy="30.25" rx="6.922" ry="6.808"/>
+                <path class="car__line car__line--top" d="M22.5 16.5H2.475" stroke-width="3"/>
+                <path class="car__line car__line--middle" d="M20.5 23.5H.4755" stroke-width="3"/>
+                <path class="car__line car__line--bottom" d="M25.5 9.5h-19" stroke-width="3"/>
+            </g>
+        </svg>
+        </div>
+    <div class="main">
+        
+        <div class="header__nav">
+            <div class="nav__content">
+                <div class="nav__logo">
+                    <img src="img/thumb.png" alt="#">
+                    <p>MUSIC</p>
+                </div>
+                <ul class="nav__list ">
+                    <li class="nav__item  nav-active">
+                        <a href="#" class="nav__link">
+                            <i class="fab fa-itunes"></i>
+                            Cá nhân
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link"><i class="fas fa-record-vinyl"></i>
+                            Khám phá
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">
+                        <i class="fab fa-facebook-messenger"></i>
+                        #ZingChart</a>
+                    </li>
+                    <li class="nav__item">
+                       
+                        <a href="#" class="nav__link"> <i class="fas fa-broadcast-tower"></i>
+                            Radio</a>
+                    </li>
+                    <li class="nav__item">  
+                        <a href="#" class="nav__link">  <i class="fas fa-rss"></i>
+                            Theo dõi</a>
+                    </li>
+                    <li class="border">
+                        
+                    </li>
+                </ul>
+                
+                <ul class="nav__scroll"> <!-- scroll-actice -->
+                    <li class="nav__scroll-items">
+                        <a href="#" class="nav__scroll-link">
+                            <i class="fas fa-music"></i> Nhạc mới
+                        </a>
+                    </li>
+                    <li class="nav__scroll-items">
+                        <a href="#" class="nav__scroll-link">
+                            <i class="fas fa-icons"></i> Thể loại
+                        </a>
+                    </li>
+                    <li class="nav__scroll-items">
+                        <a href="#" class="nav__scroll-link">
+                            <i class="fas fa-star"></i> Top 100
+                        </a>
+                    </li>
+                    <li class="nav__scroll-items">
+                        <a href="#" class="nav__scroll-link">
+                            <i class="fab fa-youtube"></i> Music video
+                        </a>
+                    </li>
+                    <li class="nav__banner">
+                        <div class="nav__banner-content">
+                            <p class="banner-text">Nghe nhạc không quảng cáo cùng kho nhạc VIP</p>
+                            <a href="#" class="btn vip">Mua vip</a>
+                        </div>
+                    </li>
+                   
+
+                    <h2 class="nav__heading">Thư viện</h2>
+                    <ul class="nav__libary">
+                        <li class="nav__libary-item">
+                            <a href="#" class="nav__libary-link">
+                                <img src="https://zjs.zadn.vn/zmp3-desktop/releases/v1.0.13/static/media/my-song.cf0cb0b4.svg" alt="">
+                            Bài hát 
+                            </a>
+                        </li>
+                        <li class="nav__libary-item">
+                            <a href="#" class="nav__libary-link">
+                                <img src="https://zjs.zadn.vn/zmp3-desktop/releases/v1.0.13/static/media/my-playlist.7e92a5f0.svg" alt="">
+                            Play list
+                            </a>
+                        </li>
+
+                        <li class="nav__libary-item">
+                            <a href="#" class="nav__libary-link">
+                                <img src="https://zjs.zadn.vn/zmp3-desktop/releases/v1.0.13/static/media/my-history.374cb625.svg" alt="">
+                            Gần dây
+                            </a>
+                        </li>
+                    </ul>
+                </ul>
+               
+                <div class="create__playlist">
+                    <!-- <div class="border"></div> -->
+                    <a href="#" class="create__btn">
+                        <i class="fas fa-plus"></i> Tạo playlist mới
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="container__header">
+                <div class="container__gr">
+                <div class="container__header-btn">
+                    <a href="#" class="arrow-left">
+                        <i class="arrow-active fas fa-arrow-left"></i>
+                    </a>
+                    <a href="#" class="arrow-right">
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <!-- show-search -->
+                <div class="container__header-search ">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Nhập tên bài hát, Nghệ sĩ hoặc MV..." class="searchItem">
+                    <ul class="search__container">
+                        <li class="search__item">
+                            <div class="search__link">
+                                <i class="fas fa-search"></i>
+                               <p>Va Vào Giai Điệu Này</p> 
+                            </div>
+                                <a href="#" class="btn__times">
+                                    <i class="fas fa-times"></i>
+                                </a>
+                        </li>
+                        <li class="search__item">
+                            <div class="search__link">
+                                <i class="fas fa-search"></i>
+                               <p>Mai</p> 
+                            </div>
+                                <a href="#" class="btn__times">
+                                    <i class="fas fa-times"></i>
+                                </a>
+                        </li>
+                        <li class="search__item">
+                            <div class="search__link">
+                                <i class="fas fa-search"></i>
+                               <p>Vì Yêu Cứ Đâm Đầu</p> 
+                            </div>
+                                <a href="#" class="btn__times">
+                                    <i class="fas fa-times"></i>
+                                </a>
+                        </li>
+                        <li class="search__item">
+                            <div class="search__link">
+                                <i class="fas fa-search"></i>
+                               <p>Lớn Rồi</p> 
+                            </div>
+                                <a href="#" class="btn__times">
+                                    <i class="fas fa-times"></i>
+                                </a>
+                        </li>
+                        <li class="search__item">
+                            <div class="search__link">
+                                <i class="fas fa-search"></i>
+                               <p>Ngày Lang Thang</p> 
+                            </div>
+                                <a href="#" class="btn__times">
+                                    <i class="fas fa-times"></i>
+                                </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                <ul class="conatainer__header-control">
+                    <li class="control-item">
+                        <a href="#" class="control-link">
+                            <i class="fas fa-tshirt"></i>
+                        </a>
+                        <div class="theme">
+                            <div class="theme__main">
+                                <div class="theme__heading">
+                                    <h1>Giao diện </h1>
+                                    <a href="#" class="btn__times-theme">
+                                        <i class="fas fa-times"></i>
+                                    </a>
+                                </div>
+                                <h3 class="theme-title">Chủ đề</h3>
+                                <ul class="theme__list">
+                                    <li class="theme__item">
+                                        <img src="img/roma.jpg" alt="">
+                                        <div class="overplay">
+                                            <div class="btn__theme-container">
+                                                <a href="#" class="btn btn-use">
+                                                    Áp dụng
+                                                </a>
+                                                <a href="#" class="btn btn-see">
+                                                    Xem trước
+                                                </a>
+                                        </div>
+                                        </div>
+                                    </li>
+                                    <li class="theme__item">
+                                        <img src="img/1536588000-ACA5E796-7971-4A89-BC7F-0D0DCA2C5750.png" alt="">
+                                        <div class="overplay">
+                                            <div class="btn__theme-container">
+                                                <a href="#" class="btn btn-use">
+                                                    Áp dụng
+                                                </a>
+                                                <a href="#" class="btn btn-see">
+                                                    Xem trước
+                                                </a>
+                                        </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <h3 class="theme-title">Ca sĩ</h3>
+                                <ul class="theme__list">
+                                    <li class="theme__item">
+                                        <img src="img/bray.jpg" alt="">
+                                        <div class="overplay">
+                                            <div class="btn__theme-container">
+                                                <a href="#" class="btn btn-use">
+                                                    Áp dụng
+                                                </a>
+                                                <a href="#" class="btn btn-see">
+                                                    Xem trước
+                                                </a>
+                                        </div>
+                                        </div>
+                                    </li>
+                                    <li class="theme__item">
+                                        <img src="img/jimmy.jpg" alt="">
+                                        <div class="overplay">
+                                            <div class="btn__theme-container">
+                                                <a href="#" class="btn btn-use">
+                                                    Áp dụng
+                                                </a>
+                                                <a href="#" class="btn btn-see">
+                                                    Xem trước
+                                                </a>
+                                        </div>
+                                        </div>
+                                    </li>
+                                    <li class="theme__item">
+                                        <img src="img/Liu_Grace.jpg" alt="">
+                                        <div class="overplay">
+                                            <div class="btn__theme-container">
+                                                <a href="#" class="btn btn-use">
+                                                    Áp dụng
+                                                </a>
+                                                <a href="#" class="btn btn-see">
+                                                    Xem trước
+                                                </a>
+                                        </div>
+                                        </div>
+                                    </li>
+                                    <li class="theme__item">
+                                        <img src="img/mck.jpg" alt="">
+                                        <div class="overplay">
+                                            <div class="btn__theme-container">
+                                                <a href="#" class="btn btn-use">
+                                                    Áp dụng
+                                                </a>
+                                                <a href="#" class="btn btn-see">
+                                                    Xem trước
+                                                </a>
+                                        </div>
+                                        </div>
+                                    </li>
+                                    <li class="theme__item">
+                                        <img src="img/den.jpg" alt="">
+                                        <div class="overplay">
+                                            <div class="btn__theme-container">
+                                                <a href="#" class="btn btn-use">
+                                                    Áp dụng
+                                                </a>
+                                                <a href="#" class="btn btn-see">
+                                                    Xem trước
+                                                </a>
+                                        </div>
+                                        </div>
+                                    </li>
+                                    <li class="theme__item">
+                                        <img src="img/youngH.jpg" alt="">
+                                        <div class="overplay">
+                                            <div class="btn__theme-container">
+                                                <a href="#" class="btn btn-use">
+                                                    Áp dụng
+                                                </a>
+                                                <a href="#" class="btn btn-see">
+                                                    Xem trước
+                                                </a>
+                                        </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <h3 class="theme-title">Màu</h3>
+                                <ul class="theme__list">
+                                    <li class="theme__item red chosen">
+                                        <img src="img/maudo.jpg" alt="">
+                                        <div class="overplay">
+                                            <div class="btn__theme-container red">
+                                                <a href="#" class="btn btn-use">
+                                                    Áp dụng
+                                                </a>
+                                                <a href="#" class="btn btn-see">
+                                                    Xem trước
+                                                </a>
+                                        </div>
+                                        </div>
+                                    </li>
+                                    <li class="theme__item blue chosen ">
+                                        <img src="img/xanhduong.png" alt="">
+                                        <div class="overplay">
+                                            <div class="btn__theme-container blue">
+                                                <a href="#" class="btn btn-use">
+                                                    Áp dụng
+                                                </a>
+                                                <a href="#" class="btn btn-see">
+                                                    Xem trước
+                                                </a>
+                                        </div>
+                                        </div>
+                                    </li>
+                                    <li class="theme__item">
+                                        <img src="img/mauhong.jpg" alt="">
+                                        <div class="overplay">
+                                            <div class="btn__theme-container">
+                                                <a href="#" class="btn btn-use">
+                                                    Áp dụng
+                                                </a>
+                                                <a href="#" class="btn btn-see">
+                                                    Xem trước
+                                                </a>
+                                        </div>
+                                        </div>
+                                    </li>
+                                    <li class="theme__item">
+                                        <img src="img/mauxam.png" alt="">
+                                        <div class="overplay">
+                                            <div class="btn__theme-container">
+                                                <a href="#" class="btn btn-use">
+                                                    Áp dụng
+                                                </a>
+                                                <a href="#" class="btn btn-see">
+                                                    Xem trước
+                                                </a>
+                                        </div>
+                                        </div>
+                                    </li>
+                                    <li class="theme__item">
+                                        <img src="img/maucam.jpg" alt="">
+                                        <div class="overplay">
+                                            <div class="btn__theme-container">
+                                                <a href="#" class="btn btn-use">
+                                                    Áp dụng
+                                                </a>
+                                                <a href="#" class="btn btn-see">
+                                                    Xem trước
+                                                </a>
+                                        </div>
+                                        </div>
+                                    </li>
+                                    <li class="theme__item">
+                                        <img src="img/mauxannhla.jpg" alt="">
+                                        <div class="overplay">
+                                            <div class="btn__theme-container">
+                                                <a href="#" class="btn btn-use">
+                                                    Áp dụng
+                                                </a>
+                                                <a href="#" class="btn btn-see">
+                                                    Xem trước
+                                                </a>
+                                        </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                              
+                        </div>
+                        </div>
+                    </li>
+                        <li class="control-item">
+                        <a href="#" class="control-link">
+                            <i class="fas fa-upload"></i>
+                        </a>
+                    </li>
+                    <li class="control-item">
+                        <a href="#" class="control-link">
+                            <i class="fas fa-cog"></i>
+                        </a>
+                    </li>
+                    <li class="control-item">
+                        <a href="#" class="control-link">
+                            <img src="img/Liu_Grace.jpg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+           
+            <audio id = "audio" preload="metadata" src=""></audio>
+            <div class="container_1">
+                <div id="slider">
+                    <label for="s1" class = "slide active "id="slide1">
+                    </label>
+                    <label for="s2" class = "slide" id="slide2">
+                    </label>
+                    <label for="s3" class = "slide" id="slide3">
+                    </label>
+                    <label for="s4" class = "slide" id="slide4">
+                    </label>
+                    <label for="s5" class = "slide" id="slide5">
+                    </label>
+                    <label for="s4" class = "slide" id="slide6">
+                    </label>
+                    <label for="s5" class = "slide" id="slide7">
+                    </label>
+                    <label for="s4" class = "slide" id="slide8">
+                    </label>
+                    <label for="s5" class = "slide" id="slide9">
+                    </label>                 
+                </div>
+                <div class="category">
+                    <ul class="category__list">
+                        <li class="category__item active-chose">
+                            <a href="#" class="category__link">
+                                Tổng quan
+                            </a>
+                        </li>
+                        <li class="category__item">
+                            <a href="#" class="category__link">
+                                Bài hát 
+                            </a>
+                        </li>
+                        <li class="category__item">
+                            <a href="#" class="category__link">
+                                Playlist 
+                            </a>
+                        </li>
+                        <li class="category__item">
+                            <a href="#" class="category__link">
+                                Nghệ sĩ 
+                            </a>
+                        </li>
+                        <li class="category__item">
+                            <a href="#" class="category__link">
+                                Album
+                            </a>
+                        </li>
+                        <li class="category__item">
+                            <a href="#" class="category__link">
+                                MV
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="container_1-child">
+                    <div class="container_1-child-1">
+      
+                    <div class="child container-1-chid-overal">
+                        <div class="heading__child-1">
+                            <a href="#" class="songs">Bài Hát
+                                    <i class="fas fa-chevron-right"></i>
+                            </a>
+                            <a href="#" class="playall">
+                                <i class="fas fa-play"></i>
+                                Phát tất cả</a>
+                        </div>
+     
+                        <div class="overal">
+                            <div class="cd">
+                                <img src="img/den.jpg" alt="">
+                            </div>
+                            <div class="overal__main">
+                                
+                                <ul class="songs__list"> 
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="child container-1-child-songs">
+                        <div class="heading__child-1">
+                            <a href="#" class="songs">Bài Hát
+                                    <i class="fas fa-chevron-right"></i>
+                            </a>
+                            <span>Thời gian</span>
+                            <a href="#" class="playall">
+                                <i class="fas fa-play"></i>
+                                Phát tất cả
+                            </a>                              
+                        </div>
+                            <div class="song">
+                                <div class="song__main">
+                                    <ul class="songs__list">                                      
+                                    </ul>
+                                </div>
+                        </div>  
+                    </div>
+                    <div class="child container-1-child-playlist">
+                        <div class="playlist__main">
+                           <h1 class="playlist__heading">
+                               Playlist
+                           </h1>
+                           <div class="playlist__content">
+                               <div class="playlist__box1">
+                                    <div class="create">
+                                        <i class="fas fa-plus"></i>
+                                        <p>Tạo playlist mới</p>
+                                    </div>
+                               </div>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="child container-1-child-artist">
+                        <div class="artist__no">
+                            <div class="artist__main">
+                                <svg id="Capa_1" enable-background="new 0 0 511.997 511.997" height="512" viewBox="0 0 511.997 511.997" width="512" xmlns="http://www.w3.org/2000/svg"><g><g><g><g><path d="m500.799 167.196c7.321-15.455 11.192-32.465 11.192-50.074 0-31.28-12.181-60.687-34.299-82.805-4.787-4.787-9.999-9.174-15.491-13.041-3.386-2.383-8.065-1.571-10.448 1.815-2.384 3.387-1.571 8.065 1.815 10.448 4.791 3.372 9.34 7.202 13.52 11.382 19.285 19.286 29.906 44.927 29.906 72.2 0 13.491-2.612 26.577-7.573 38.696l-133.195-133.195c21.28-8.714 45.261-10.145 68.102-3.293 3.969 1.19 8.148-1.061 9.337-5.027 1.19-3.967-1.061-8.147-5.027-9.337-28.252-8.476-58.029-5.913-83.794 6.276l-.287-.287c-3.07-3.07-7.152-4.761-11.494-4.761s-8.424 1.691-11.493 4.761l-18.754 18.754c-5.116 5.116-6.096 12.818-2.953 18.933-13.95 19.247-21.652 42.185-22.103 66.306l-27.813 42.926-5.77 8.906-176.121 211.821-62.41 71.307c-7.904 9.031-7.448 22.753 1.038 31.239l24.18 24.18c4.43 4.43 10.286 6.672 16.165 6.672 5.382 0 10.784-1.88 15.125-5.68l17.231-15.364c3.091-2.756 3.363-7.496.606-10.587-2.756-3.092-7.496-3.363-10.587-.606l-17.179 15.318c-3.11 2.721-7.835 2.564-10.757-.357l-24.18-24.18c-2.922-2.922-3.079-7.647-.357-10.757l57.199-65.353 43.448 43.448-21.848 19.122c-3.117 2.728-3.432 7.465-.704 10.581 2.728 3.117 7.466 3.432 10.581.704l27.802-24.333 211.822-176.12 8.372-5.424 43.567-28.229c24.091-.458 46.981-8.14 66.184-22.041 2.331 1.201 4.892 1.806 7.454 1.806 4.162 0 8.325-1.584 11.494-4.753l18.754-18.754c3.07-3.07 4.761-7.151 4.761-11.494 0-4.342-1.691-8.424-4.761-11.494zm-371.786 260.908-45.108-45.108 169.701-204.101 79.508 79.508zm216.614-178.398-83.324-83.324 24.164-37.294 30.743 30.743 65.711 65.711zm52.149-30.518-53.26-53.26-51.759-51.759c.566-19.551 6.621-38.174 17.423-54.11l141.755 141.756c-15.939 10.787-34.573 16.834-54.159 17.373zm92.675-39.354-18.754 18.754c-.491.49-1.288.49-1.779 0l-156.497-156.498c-.49-.49-.49-1.288 0-1.778l18.755-18.755c.304-.304.651-.368.888-.368.238 0 .585.064.889.368l156.498 156.499c.304.304.368.651.368.889s-.064.585-.368.889z"/><path d="m232.392 241.26-26.281 26.281c-5.109 5.109-7.923 11.902-7.923 19.128s2.814 14.019 7.923 19.128l.101.101c5.109 5.109 11.902 7.923 19.128 7.923s14.019-2.814 19.128-7.923l26.281-26.281c10.547-10.547 10.547-27.708 0-38.255l-.102-.102c-10.547-10.547-27.708-10.547-38.255 0zm-7.052 57.563c-3.22 0-6.246-1.254-8.522-3.531l-.101-.101c-2.277-2.277-3.531-5.303-3.531-8.523 0-2.307.654-4.509 1.856-6.413l16.712 16.712c-1.904 1.203-4.107 1.856-6.414 1.856zm21.664-16.67-4.428 4.428-17.147-17.147 4.428-4.428 4.428-4.428 17.147 17.147zm13.14-30.187c4.048 4.048 4.6 10.28 1.673 14.935l-16.709-16.709c1.953-1.228 4.181-1.852 6.412-1.852 3.086 0 6.173 1.175 8.523 3.525z"/><path d="m121.384 101.403c24.475 9.151 35.177 33.01 39.378 46.418 1.33 4.246 5.216 7.099 9.67 7.099s8.34-2.853 9.67-7.098c4.201-13.408 14.903-37.267 39.379-46.419 3.985-1.49 6.559-5.213 6.558-9.484s-2.575-7.993-6.559-9.482c-24.475-9.152-35.177-33.011-39.378-46.418-1.33-4.246-5.216-7.099-9.67-7.099s-8.34 2.853-9.67 7.098c-4.201 13.408-14.903 37.267-39.378 46.418-3.985 1.49-6.559 5.211-6.56 9.482s2.574 7.995 6.56 9.485zm49.048-48.657c5.982 13.337 16.382 29.276 33.97 39.174-17.587 9.898-27.987 25.837-33.97 39.174-5.982-13.337-16.382-29.277-33.97-39.174 17.588-9.898 27.987-25.837 33.97-39.174z"/><path d="m364.135 384.836c-17.084-6.388-24.6-23.19-27.56-32.638-1.238-3.949-4.852-6.602-8.993-6.602s-7.755 2.653-8.993 6.602c-2.96 9.448-10.478 26.251-27.56 32.637-3.709 1.387-6.106 4.849-6.106 8.821s2.397 7.435 6.106 8.821c17.082 6.387 24.6 23.19 27.56 32.638 1.238 3.949 4.852 6.602 8.993 6.602s7.755-2.653 8.993-6.603c2.96-9.447 10.477-26.25 27.561-32.637 3.709-1.387 6.105-4.849 6.105-8.821-.001-3.97-2.397-7.433-6.106-8.82zm-36.553 32.797c-4.301-8.356-10.915-17.463-20.93-23.975 10.015-6.513 16.629-15.619 20.93-23.975 4.3 8.356 10.915 17.462 20.929 23.975-10.015 6.512-16.629 15.618-20.929 23.975z"/><path d="m482.727 300.899c-22.304-8.339-32.07-30.125-35.905-42.369-1.303-4.158-5.109-6.953-9.471-6.953-4.363 0-8.169 2.794-9.471 6.953-3.836 12.244-13.602 34.03-35.907 42.369-3.903 1.46-6.425 5.106-6.425 9.288s2.522 7.828 6.426 9.288c22.304 8.339 32.07 30.125 35.905 42.369 1.303 4.158 5.109 6.953 9.471 6.953s8.168-2.794 9.471-6.953c3.836-12.244 13.602-34.03 35.907-42.369 3.903-1.46 6.425-5.106 6.425-9.288s-2.522-7.828-6.426-9.288zm-45.377 43.936c-5.519-11.887-14.813-25.724-30.09-34.648 15.278-8.924 24.571-22.762 30.09-34.648 5.519 11.887 14.813 25.724 30.09 34.648-15.277 8.924-24.57 22.762-30.09 34.648z"/></g></g></g></g></svg>
+                                <p>Không có Nghệ sĩ trong thư viện nhạc cá nhân</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="child container-1-child-album">
+                        <div class="artist__no">
+                            <div class="artist__main">
+                                <svg id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m205 130c-41.355 0-75 33.645-75 75s33.645 75 75 75 75-33.645 75-75-33.645-75-75-75zm0 105c-16.569 0-30-13.432-30-30 0-16.569 13.431-30 30-30s30 13.431 30 30c0 16.568-13.431 30-30 30z"/><path d="m506.231 250.177c-3.641-2.843-8.389-3.85-12.869-2.729l-160 40c-6.677 1.669-11.362 7.669-11.362 14.552v122.58c-4.695-1.665-9.742-2.58-15-2.58-24.813 0-45 20.187-45 45s20.187 45 45 45 45-20.187 45-45v-108.75l130-32.5v78.83c-4.695-1.665-9.741-2.58-15-2.58-24.813 0-45 20.187-45 45s20.187 45 45 45 45-20.187 45-45v-185c0-4.619-2.128-8.98-5.769-11.823z"/><path d="m326.088 258.344 81.257-20.314c1.759-10.854 2.655-21.881 2.655-33.03 0-113.037-91.963-205-205-205-113.038 0-205 91.963-205 205s91.962 205 205 205c30.511 0 60.08-6.7 87-19.339v-88.661c0-20.688 14.018-38.641 34.088-43.656zm-121.088 51.656c-57.897 0-105-47.103-105-105s47.103-105 105-105 105 47.103 105 105-47.103 105-105 105z"/></g></svg>
+                                <p>Không có Album trong thư viện nhạc cá nhân</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="child container-1-child-mv">
+                        <div class="artist__no">
+                            <div class="artist__main">
+                               <svg height="512pt" viewBox="-31 0 512 512" width="512pt" xmlns="http://www.w3.org/2000/svg"><g fill-rule="evenodd"><path d="m440.589844 206.675781h-341.171875l327.699219-94.929687c2.546874-.738282 4.695312-2.460938 5.976562-4.78125 1.28125-2.324219 1.585938-5.058594.847656-7.605469l-17.148437-59.199219c-6.851563-23.644531-28.867188-40.160156-53.539063-40.160156-5.199218 0-10.378906.738281-15.402344 2.191406l-307.675781 89.128906c-14.230469 4.121094-26.023437 13.582032-33.214843 26.632813-7.1875 13.050781-8.875 28.078125-4.753907 42.304687l16.753907 57.835938v238.253906c0 30.6875 24.964843 55.652344 55.648437 55.652344h120.164063c5.523437 0 10-4.476562 10-10s-4.476563-10-10-10h-120.160157c-19.660156 0-35.652343-15.992188-35.652343-35.652344v-136.085937h51.230468.023438.019531 78.3125.023437.023438 78.3125.023438.023437 78.3125.023437.019532 105.28125v136.085937c0 19.660156-15.992188 35.652344-35.652344 35.652344h-120.164062c-5.519532 0-10 4.476562-10 10s4.480468 10 10 10h120.164062c30.6875 0 55.652344-24.964844 55.652344-55.652344v-239.671875c0-5.523437-4.476563-10-10-10zm-176.332032 93.585938 42.488282-73.585938h55.261718l-42.484374 73.585938zm-78.359374 0 42.488281-73.585938h55.261719l-42.484376 73.585938zm-78.355469 0 42.484375-73.585938h55.265625l-42.488281 73.585938zm37.179687-129.457031-71.148437-68.335938 53.308593-15.441406c.375.546875.8125 1.0625 1.3125 1.542968l71.148438 68.335938-53.308594 15.441406c-.375-.546875-.816406-1.066406-1.3125-1.542968zm134-125.839844 71.148438 68.335937-53.308594 15.441407c-.375-.546876-.8125-1.066407-1.3125-1.542969l-71.148438-68.335938 53.308594-15.441406c.375.546875.8125 1.0625 1.3125 1.542969zm-75.265625 21.804687 71.148438 68.332031-53.308594 15.445313c-.375-.546875-.8125-1.066406-1.3125-1.542969l-71.148437-68.335937 53.308593-15.441407c.378907.542969.816407 1.0625 1.3125 1.542969zm149.960938-45.367187c3.210937-.929688 6.519531-1.402344 9.835937-1.402344 15.824219 0 29.9375 10.578125 34.328125 25.726562l14.367188 49.589844-40.121094 11.621094c-.378906-.546875-.816406-1.0625-1.316406-1.542969l-71.144531-68.332031zm-328.9375 106.199218c4.609375-8.371093 12.160156-14.433593 21.261719-17.070312l5.875-1.703125c.378906.546875.816406 1.066406 1.3125 1.542969l71.148437 68.335937-88.292969 25.578125-14.367187-49.589844c-2.636719-9.097656-1.546875-18.71875 3.0625-27.09375zm14.480469 99.074219h87.972656l-42.484375 73.585938h-45.488281zm303.65625 73.585938 42.484374-73.585938h45.488282v73.585938zm0 0"/><path d="m303.921875 405.113281c0-3.574219-1.90625-6.875-5-8.660156l-87.855469-50.722656c-3.09375-1.785157-6.90625-1.785157-10 0-3.09375 1.785156-5 5.085937-5 8.660156v101.445313c0 3.570312 1.90625 6.871093 5 8.65625 1.546875.894531 3.273438 1.34375 5 1.34375 1.726563 0 3.453125-.449219 5-1.34375l87.855469-50.71875c3.09375-1.785157 5-5.085938 5-8.660157zm-87.855469 33.402344v-66.804687l57.855469 33.402343zm0 0"/><path d="m234.773438 492c-5.507813 0-10 4.492188-10 10s4.492187 10 10 10c5.511718 0 10-4.492188 10-10s-4.488282-10-10-10zm0 0"/></g></svg>
+                                <p>Không có Album trong thư viện nhạc cá nhân</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+            </div>
+        
+        </div>
+        </div>
+    </div>
+    <div class="listen">
+        <div class="listen__intro">  
+            <div class="logo">
+                <img src="img/logo2.png" alt="">
+            </div>
+        <p>Music with Travel</p>
+    </div>
+    <div class="listen__control">
+        <div class="control__btn">
+            <div class="btn-repeat">
+                <i class="fas fa-redo"></i>
+              </div>
+              <div class="btn-prev">
+                <i class="fas fa-step-backward"></i>
+              </div>
+              <div class="btn-toggle-play">
+                <i class="fas fa-pause icon-pause"></i>
+                <i class="fas fa-play icon-play"></i>
+              </div>
+              <div class="btn-next">
+                <i class="fas fa-step-forward"></i>
+              </div>
+              <div class="btn-random">
+                <i class="fas fa-random"></i>
+              </div>
+        </div>
+        <div class="control">
+            <span class="start">00:00</span>
+            <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+            <span class="end">0:00</span>
+        </div>
+    </div>
+        <div class="control__extra">
+            <a href="#" class="btnlyric">
+                <i class="fas fa-microphone"></i>
+            </a>
+            <a href="#" class="btndownload">
+                <i class="fas fa-download"></i>
+            </a>
+            <div class="volumn">
+            <a href="#" class="btnspeaker active-speak">
+                <i class="speak fas fa-volume-down"></i>
+                <i class="mute fas fa-volume-mute"></i>
+            </a>
+            <input class="volumn__range" type="range" value="0" step="1" min="0" max="100">
+        </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
